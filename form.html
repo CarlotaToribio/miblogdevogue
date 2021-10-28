@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML5</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script>
+        function updateTextInput(val){
+            document.getElementById("textinput").value=val;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="IMG/logo.3ad9a3dd09515c1c1ddd575eb85e23832477a9bd.svg" alt="Vogue">
+        </header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li> Home </li>
+                    </a>
+                    <a href="parrafo.html">
+                        <li> Párrafo </li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li> Enlace </li>
+                    </a>
+                    <a href="tablas.html">
+                        <li> Tablas </li>
+                    </a>
+                    <a href="listas.html">
+                        <li> Listas </li>
+                    </a>
+                    <a href="formularios.html">
+                        <li> Formulario </li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li> Multimedia </li>
+                    </a>
+                    <a href="form.html">
+                        <li> Form HTML5 </li>
+                    </a>
+                </ul>
+            </nav>
+            <div id="contenido">
+                <h1 class="h1">FORMULARIOS HTML5</h1>
+                <div id="formhtml">
+                    <h2>Formulario</h2>
+                    <form action="destino.php" method="post">
+                        <p>Email: <input type="email" name="email"></p>
+                        <p>Url: <input type="url" name="url"></p>
+                        <p>Teléfono: <input type="tel" name="telefono"></p>
+                        <p>Hora: <input type="time" name="hora"></p>
+                        <p>Fecha: <input type="date" name="fecha"></p>
+                        <p>Mes: <input type="month" name="mes"></p>
+                        <p>Semana: <input type="week" name="semana"></p>
+                        <p>Fecha y hora: <input type="datetime-local" name="fechahora"></p>
+                        <p>Numero: <input type="number" name="numero" step="2" min="10" max="30"></p>
+                        <p>Rango: <input type="range" name="rango" step="5" min="5" max="50"
+                            onchange="updateTextInput(this.value);"/>
+                        <input type="text" id="textinput" value=""></p>
+                        <p>Color: <input type="color" name="color"></p>
+
+                        <input type="submit" value="Enviar" id="enviar1" />
+                    </form>
+                    
+                    
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            S1DAM - &copy; 2021 Developed by Carlota Toribio Toledo
+        </footer>
+    </div>
+</body>
+
+</html>
