@@ -10,8 +10,6 @@ body {
 
 #imagenarriba{
     size: 80%;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 header img{
@@ -21,21 +19,32 @@ header img{
 nav{
     width: 20%;
     float: left;
+    margin-top: 5%;
 }
 
 #contenido{
     width: 80%;
     float: right;
     text-align: center;
-    padding-bottom: 24px;
+    padding-bottom: 10%;
+}
+
+.h1{
+    font-size: 250%;
+    text-align: center;
+}
+
+.debajofoto{
+    font-size: 200%;
+    text-align: center;
 }
 
 footer{
     background-color: black ;
     color: #c0ac97;
     text-align: center;
-    font-size: 15px;
-    padding: 6px;
+    font-size: 100%;
+    padding: 1%;
 }
 
 .cb{
@@ -44,13 +53,13 @@ footer{
 
 nav li{
     list-style-type: none;
-    font-size: 22px;
+    font-size: 150%;
     text-align: center;
-    padding: 10px;
-    margin: 5px;
+    padding: 4%;
+    margin: 2%;
     color:  #613608;
-    border: solid 1px  #613608;
-    border-radius: 10px;
+    border: solid 2px  #613608;
+    border-radius: 15px;
 }
 
 nav li:hover {
@@ -72,13 +81,13 @@ a{
 
 #parrafo{
     background-color: #DDBEBE;
-    margin-right: 60px;
-    margin-left: 30px;
+    margin-right: 4%;
+    margin-left: 3%;
     text-align: left;
-    padding: 24px; 
+    padding: 2%; 
     border-radius: 2%;
     border-style: solid;
-    border-color: black;
+    border-color: #613608;
     color: #6c4a4a;
 }
 
@@ -113,22 +122,22 @@ a{
  }
 
  #frase{
-     font-size: 30px;
+     font-size: 200%;
      text-align: right;
      color: #d54583;
  }
 
 #enlaces{
     background-color: #ffffff9f;
-    margin-right: 60px;
-    margin-left: 30px;
+    margin-right: 4%;
+    margin-left: 3%;
     text-align: left;
-    padding: 20px;
+    padding: 2%;
     text-decoration: none;
 }
 
 .btn-flotante{
-    margin-left: 0%;
+    margin-left: 93%;
 }
 
 #tablas{
@@ -203,10 +212,12 @@ a{
 }
 
 #tablahorario table{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../IMG/brilloblanco.jpg);
+    text-align: center;
 }
 
 #exterior{
@@ -214,38 +225,266 @@ a{
     color: #008080;
 }
 
-#s1dam{
+#fashionweek{
     font-size: 26px;
-    background-color: #f0f0f0;
-    color: #008080;
+    text-align: center;
+    color: black;
 }
 
-#LMSG{
-    background-color: #00b95c;
+#wearemade{
+    background-color: #978777;
 }
 
-#INGLES{
-    background-color: #80ff80;
+#maxmara{
+    background-color: #8b5234;
 }
 
-#FOL{
-    background-color: #f0f0c8;
+#tod{
+    background-color: #878791; 
 }
 
-#SISI{
-    background-color: #ff8001;
+#ports{
+    background-color: #feb79a;
 }
 
-#ENDE{
-    background-color: #8080bf;
+#francesca{
+    background-color: #bc5c56;
 }
 
-#BASE{
-    background-color: #63aa96;
+#moura{
+    background-color: #63485e;
 }
 
-#PROG{
-    background-color: #80ffff;
+#joy{
+    background-color: #fff5b5;
+}
+
+#calcaterra{
+    background-color: #e8c582;
+}
+
+#genny{
+    background-color: #5f2627;
+    color: white;
+}
+
+#missoni{
+    background-color: #bb4768;
+}
+
+#ermanno{
+    background-color: #e57728;
+}
+
+#luisa{
+    background-color: #783043;
+}
+
+#munn{
+    background-color: #69559f;
+}
+
+#marco{
+    background-color: #6879a8;
+}
+
+#boss{
+    background-color: #aba76a;
+}
+
+#sportmax{
+    background-color: #567f69;
+}
+
+#msgm{
+    background-color: #d0a1c7;
+}
+
+#laura{
+    background-color: #f8c44a;
+}
+
+#lagos{
+    background-color: #3b69a0;
+}
+
+#annakiki{
+    background-color: #b71c1d;
+}
+
+#antonio{
+    background-color: #c3dee1;
+}
+
+#anteprima{
+    background-color: #e64b87;
+}
+
+#budapest{
+    background-color: #381f16;
+    color: white;
+}
+
+#moncler{
+    background-color: #8c948f;
+}
+
+#onitsuka{
+    background-color: #16392c;
+    color: white;
+}
+
+#maxivive{
+    background-color: #f76e5d;
+}
+
+#beccaria{
+    background-color: #acba8e;
+}
+
+#fendi{
+    background-color: #a85b31;
+}
+
+#etro{
+    background-color: #e0b89f;
+}
+
+#vien{
+    background-color: #fcd5d6;
+}
+
+#disquared{
+    background-color: #ad7680;
+}
+
+#maison{
+    background-color: #77bf40;
+}
+
+#salvatore{
+    background-color: #a9a384;
+}
+
+#core{
+    background-color: #7aadf9;
+}
+
+#drome{
+    background-color: #bbbbbc;
+}
+
+#prada{
+    background-color: #583568;
+}
+
+#emilio{
+    background-color: #03af9f;
+}
+
+#dolce{
+    background-color: #bb2e2e;
+}
+
+#sindiso{
+    background-color: #f3ec33;
+}
+
+#vivetta{
+    background-color: #eccfb8;
+}
+
+#daniela{
+    background-color: #e89d3e;
+}
+
+#act{
+    background-color: #40a3b4;
+}
+
+#milano{
+    background-color: #7c1c1e;
+    color: white;
+}
+
+#cividini{
+    background-color: #73711c;
+}
+
+#alberta{
+    background-color: #039ca9;
+}
+
+#armani{
+    background-color: #d20e46;
+}
+
+#sunnei{
+    background-color: #d1e188;
+}
+
+#philosophy{
+    background-color: #c46f7d;
+}
+
+#hui{
+    background-color: #e3c155;
+}
+
+#n21{
+    background-color: #8895a7;
+}
+
+#blumarine{
+    background-color: #b43e49;
+}
+
+#elisabetta{
+    background-color: #9180a1;
+}
+
+#shirt{
+    background-color: #626560;
+}
+
+#pierre{
+    background-color: #efdfd6;
+}
+
+#jil{
+    background-color: #c07448;
+}
+
+#mm6{
+    background-color: #847615;
+}
+
+#vitelli{
+    background-color: #3f5865;
+}
+
+#giorgio{
+    background-color: #603654;
+}
+
+#phipipp{
+    background-color: #959086;
+}
+
+#cavalli{
+    background-color: #ded3d9;
+}
+
+#gcds{
+    background-color: #82a10e;
+}
+
+#versacce{
+    background-color: #b00785;
+}
+
+#marni{
+    background-color: #419de8;
 }
 
 #listas{
