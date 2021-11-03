@@ -93,36 +93,25 @@ a{
 }
 
 #parrafouno{
-    float: left;
-    width: 70%;
+    text-align: justify;
+    margin: 3%
 }
+
+#primeralineafotos{
+    margin: 3%;
+ }
+
 #parrafodos{
-    float: right;
-    width: 70%;
-}
-#parrafotres{
-    float: left;
-    width: 70%;
+    text-align: justify;
+    margin: 3%;
 }
 
-#parrafotres{
-    float: right;
-    width: 70%;
-}
-
-#primeraportada{
-   float: right;
-   width: 30%;
-   margin-top: 2%;
-}
-
-#portada1990{
-    margin-top: 2%;
-    float: left;
-    width: 30%;
+#segundalineafotos{
+    margin: 3%;
  }
 
  #frase{
+     margin: 3%;
      font-size: 200%;
      text-align: right;
      color: #d54583;
@@ -443,10 +432,6 @@ a{
     border-color: #FAEBE0;
 }
 
-#preferencias{
-    margin-top: 10%;
-}
-
 #listas1{
     font-size: 130%;
 }
@@ -468,18 +453,14 @@ a{
     color: black;
     margin-right: 4%;
     margin-left: 3%;
-    text-align: center;    
-    float: center;
     padding: 2%;
-    text-decoration: none;
+    text-align: center;
 }
 
-#formulariobasico{
+#formularioregistro{
     color: black; 
     background-color: #c0ac96e0;
-    width: 55%;
     padding: 1%;
-    float: center;
     text-align: center;
 }
 
@@ -489,19 +470,33 @@ fieldset #login{
     background-position: center;
 }
 
-#formulariovariado{
+#formulariocuestionario{
     background-color: #c0ac96e0;
-    width: 55%;
+    text-align: center;
     padding: 1%;
     margin-top: 5%;
     color: black;
-    
+    margin-left: 22,5%;
 }
 
 fieldset #lista{
     width: 70%;
     float: center;
     background-position: center;
+}
+
+#preferencias{
+    margin-top: 10%;
+}
+
+#pretaporter{
+    width: 50%;
+    float: left;
+}
+
+#hautecouture{
+    width: 50%;
+    float: right;
 }
 
 #multimedia{
