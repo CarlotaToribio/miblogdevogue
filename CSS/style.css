@@ -148,70 +148,6 @@ a{
     padding: 2%;
 }
 
-.text-derecha{
-    text-align: right;
-}
-
-#tablauno table{
-    width: 60%;
-    margin: 0 auto;
-    font-size: 150%;
-}
-
-#tablauno th{
-    background-color: #FAEBE0;
-    color: #FE019A;
-}
-
-#tablauno tr{
-    background-color: #C9E4C5;
-    color: #196C05;
-}
-
-#textotablauno{
-    text-align: left;
-}
-
-#tablados table{
-    width: 60%;
-    margin: 0 auto;
-    font-size: 150%;
-}
-
-#tablados th{
-    background-color: #FAEBE0;
-    color: #FE019A;
-}
-
-#tablados tr{
-    background-color: #C9E4C5;
-    color: #196C05;
-}
-
-#textotablados{
-    text-align: left;
-}
-
-#tablatres table{
-    width: 60%;
-    margin: 0 auto;
-    font-size: 150%;
-}
-
-#par{
-    background-color: #FAEBE0;
-    color: #FE019A;
-}
-
-#impar{
-    background-color: #C9E4C5;
-    color: #196C05;
-}
-
-#textotablatres{
-    text-align: left;
-}
-
 #tabladesfiles table{
     width: 100%;
     margin: 0 auto;
@@ -222,19 +158,14 @@ a{
     color: black;
 }
 
-#textotabladesfiles{
-    font-size: 200%;
-    color: black;
-}
-
 #exterior{
     background-image: url(../IMG/brilloblanco.jpg);    
     color: black;
 }
 
-#fashionweek{
+#horariodesfiles{
     background-image: url(../IMG/brilloblanco.jpg);
-    font-size: 26px;
+    font-size: 120%;
     text-align: center;
     color: black;
 }
@@ -498,51 +429,34 @@ a{
 #listas{
     background-color: #613608a4;
     color: #FAEBE0;
-    margin-right: 60px;
-    margin-left: 30px;
+    margin-right: 4%;
+    margin-left: 3%;
     text-align: left;
-    padding: 20px;
+    padding: 2%;
     text-decoration: none;
     border-radius: 5%;
     border-style: solid;
     border-color: #FAEBE0;
 }
 
+#preferencias{
+    margin-top: 10%;
+}
+
 #listas1{
-    font-size: 20px;
+    font-size: 130%;
 }
 
 #listas2{
-    font-size: 18px;
-}
-
-#listas2{
-    font-size: 16px;
-}
-
-#customo li{
-    list-style-type: decimal;
-}
-
-#customo li li{
-    list-style-type: lower-alpha;
-}
-
-#customo li li li{
-    list-style-type: lower-roman;
+    font-size: 95%;
 }
 
 #customd li{
-    list-style-type: square;
+    list-style-image: url(../IMG/vdevogue.png);
 }
 
 #customd li li{
     list-style-image: url(../IMG/vdevogue.png);
-}
-
-#customd li li li{
-    list-style-type: circle;
-    list-style-image: none;
 }
 
 #formularios{
@@ -550,7 +464,7 @@ a{
     color: black;
     margin-right: 4%;
     margin-left: 3%;
-    text-align: center;
+    text-align: center;    
     float: center;
     padding: 2%;
     text-decoration: none;
@@ -588,10 +502,10 @@ fieldset #lista{
 
 #multimedia{
     background-image: url(../IMG/brilloblanco.jpg);
-    margin-right: 60px;
-    margin-left: 30px;
+    margin-right: 4%;
+    margin-left: 3%;
     text-align: left;
-    padding: 20px;
+    padding: 2%;
     text-decoration: none;
 }
 
@@ -601,8 +515,8 @@ fieldset #lista{
 
 #formhtml{
     background-color: white;
-    margin-right: 60px;
-    margin-left: 30px;
+    margin-right: 4%;
+    margin-left: 3%;
     text-align: left;
-    padding: 24px; 
+    padding: 2%; 
 }
