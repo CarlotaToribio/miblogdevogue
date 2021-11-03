@@ -32,6 +32,7 @@ nav{
 .h1{
     font-size: 250%;
     text-align: center;
+    margin-top: 5%;
 }
 
 .debajofoto{
@@ -141,10 +142,10 @@ a{
 }
 
 #tablas{
-    margin-right: 60px;
-    margin-left: 30px;
-    text-align: left;
-    padding: 20px;
+    margin-right: 4%;
+    margin-left: 3%;
+    text-align: center;
+    padding: 2%;
 }
 
 .text-derecha{
@@ -154,7 +155,7 @@ a{
 #tablauno table{
     width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 150%;
 }
 
 #tablauno th{
@@ -174,7 +175,7 @@ a{
 #tablados table{
     width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 150%;
 }
 
 #tablados th{
@@ -194,7 +195,7 @@ a{
 #tablatres table{
     width: 60%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 150%;
 }
 
 #par{
@@ -211,21 +212,28 @@ a{
     text-align: left;
 }
 
-#tablahorario table{
+#tabladesfiles table{
     width: 100%;
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 130%;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../IMG/brilloblanco.jpg);
     text-align: center;
+    color: black;
+}
+
+#textotabladesfiles{
+    font-size: 200%;
+    color: black;
 }
 
 #exterior{
-    background-color: #f0f0f0;
-    color: #008080;
+    background-image: url(../IMG/brilloblanco.jpg);    
+    color: black;
 }
 
 #fashionweek{
+    background-image: url(../IMG/brilloblanco.jpg);
     font-size: 26px;
     text-align: center;
     color: black;
@@ -539,19 +547,43 @@ a{
 
 #formularios{
     background-image: url(../IMG/glitter.jpg);
-    margin-right: 60px;
-    margin-left: 30px;
-    text-align: left;
-    padding: 20px;
+    color: black;
+    margin-right: 4%;
+    margin-left: 3%;
+    text-align: center;
+    float: center;
+    padding: 2%;
     text-decoration: none;
 }
 
 #formulariobasico{
+    color: black; 
+    background-color: #c0ac96e0;
+    width: 55%;
+    padding: 1%;
+    float: center;
+    text-align: center;
+}
+
+fieldset #login{
     width: 50%;
+    float: center;
+    background-position: center;
 }
 
 #formulariovariado{
+    background-color: #c0ac96e0;
+    width: 55%;
+    padding: 1%;
+    margin-top: 5%;
+    color: black;
+    
+}
+
+fieldset #lista{
     width: 70%;
+    float: center;
+    background-position: center;
 }
 
 #multimedia{

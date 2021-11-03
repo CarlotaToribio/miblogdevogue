@@ -46,64 +46,113 @@
             <div id="contenido">
                 <h1 class="h1">FORMULARIOS</h1>
                 <div id="formularios">
-                    <h2>Formulario básico</h2>
-                    <fieldset id="formulariobasico">
-                        <legend>Login</legend>
-                        <form action="" method="get">
-                            <p><input type="text" name="usuario" placeholder="Usuario"></p>
-                            <p><input type="password" name="constraseña" placeholder="Contraseña"></p>
-                            <p><textarea name="comentario" cols="30" rows="10" placeholder="Comentario"></textarea></p>
-                            <p><input type="submit" value="Enviar"></p>
-                        </form>
-                    </fieldset>
-                    <h2>Formulario variado</h2>
-                    <fieldset id="formulariovariado">
-                        <p> Lista
-                        <form action="" method="get">
-                            <select name="provincia" id="">
-                                <option value="1">Toledo</option>
-                                <option value="2">Ciudad Real</option>
-                                <option value="3">Albacete</option>
-                                <option value="4">Cuenca</option>
-                                <option value="5">Guadalajara</option>
-                            </select>
-
-                            </p>
-                            <p>Colores
-
-                                <select name="provincia" multiple size="5">
-                                    <option value="1">Azul</option>
-                                    <option value="2">Rojo</option>
-                                    <option value="3">Verde</option>
-                                    <option value="4">Negro</option>
-                                    <option value="5">Amarillo</option>
-                                </select>
-
-                            </p>
-                            <fieldset>
-                                <legend>Aficiones</legend>
-
-                                <input type="checkbox" name="cine"> Cine <br>
-                                <input type="checkbox" name="deporte"> Deporte <br>
-                                <input type="checkbox" name="fiesta"> Fiesta <br>
-                                <input type="checkbox" name="viajar"> Viajar <br>
-
-                            </fieldset>
-                            <fieldset>
-                                <legend>Sexo</legend>
-
-                                <input type="radio" name="sexo" value="hombre"> Hombre <br>
-                                <input type="radio" name="sexo" value="mujer"> Mujer <br>
-                                <input type="radio" name="sexo" value="otro"> Otro <br>
-                                <input type="radio" name="sexo" value="prefieronodecirlo"> Prefiero no decirlo <br>
-
-                            </fieldset>
+                    <div id="formulariobasico">
+                        <h2>Regístrate</h2>
+                        <fieldset id="login">
+                            <legend>Login</legend>
+                            <form action="" method="get">
+                                <p><input type="text" name="usuario" placeholder="Usuario"></p>
+                                <p><input type="password" name="constraseña" placeholder="Contraseña"></p>
+                                <p><textarea name="comentario" cols="30" rows="10" placeholder="Comentario"></textarea>
+                                </p>
+                                <p><input type="submit" value="Enviar"></p>
+                            </form>
+                        </fieldset>
+                    </div>
+                    <div id="formulariovariado">
+                        <h2>Rellena este cuestionario</h2>
+                        <fieldset id="lista">
+                            <p> Seleeciona tu provincia </p>
                             <p>
+                            <form action="" method="get">
+                                <select name="provincia" id="">
+                                    <option value="1">Álava</option>
+                                    <option value="2">Albacete</option>
+                                    <option value="3">Alicante</option>
+                                    <option value="4">Almería</option>
+                                    <option value="5">Asturias</option>
+                                    <option value="6">Ávila</option>
+                                    <option value="7">Badajoz</option>
+                                    <option value="8">Barcelona</option>
+                                    <option value="9">Burgos</option>
+                                    <option value="10">Cáceres</option>
+                                    <option value="11">Cádiz</option>
+                                    <option value="12">Cantabria</option>
+                                    <option value="13">Castellón</option>
+                                    <option value="14">Ciudad Real</option>
+                                    <option value="15">Córdoba</option>
+                                    <option value="16">La Coruña</option>
+                                    <option value="17">Cuenca</option>
+                                    <option value="18">Gerona</option>
+                                    <option value="19">Granada</option>
+                                    <option value="20">Guadalajara</option>
+                                    <option value="21">Guipúzcoa</option>
+                                    <option value="22">Huelva</option>
+                                    <option value="23">Huesca</option>
+                                    <option value="24">Islas Baleares</option>
+                                    <option value="25">Jaén</option>
+                                    <option value="26">León</option>
+                                    <option value="27">Lerida</option>
+                                    <option value="28">Lugo</option>
+                                    <option value="29">Madrid</option>
+                                    <option value="30">Málaga</option>
+                                    <option value="31">Murcia</option>
+                                    <option value="32">Navarra</option>
+                                    <option value="33">Orense</option>
+                                    <option value="34">Palencia</option>
+                                    <option value="35">Las Palmas</option>
+                                    <option value="36">Pontevedra</option>
+                                    <option value="37">La Rioja</option>
+                                    <option value="38">Salamanca</option>
+                                    <option value="39">Segovia</option>
+                                    <option value="40">Sevilla</option>
+                                    <option value="41">Soria</option>
+                                    <option value="42">Tarragona</option>
+                                    <option value="43">Santa Cruz de Tenerife</option>
+                                    <option value="44">Teruel</option>
+                                    <option value="45">Toledo</option>
+                                    <option value="46">Valencia</option>
+                                    <option value="47">Valladolid</option>
+                                    <option value="48">Vizcaya</option>
+                                    <option value="49">Zamora</option>
+                                    <option value="50">Zaragoza</option>
+                                </select>
+                                </p>
+                                <p>Colores</p>
+                                <p>
+                                    <select name="provincia" multiple size="5">
+                                        <option value="1">Azul</option>
+                                        <option value="2">Rojo</option>
+                                        <option value="3">Verde</option>
+                                        <option value="4">Negro</option>
+                                        <option value="5">Amarillo</option>
+                                    </select>
+                                </p>
+                                <fieldset>
+                                    <legend>Aficiones</legend>
 
-                            <p><input type="submit" value="Aceptar"><input type="reset" value="Limpiar"></p>
-                        </form>
-                        </p>
-                    </fieldset>
+                                    <input type="checkbox" name="cine"> Cine <br>
+                                    <input type="checkbox" name="deporte"> Deporte <br>
+                                    <input type="checkbox" name="fiesta"> Fiesta <br>
+                                    <input type="checkbox" name="viajar"> Viajar <br>
+
+                                </fieldset>
+                                <fieldset>
+                                    <legend>Sexo</legend>
+
+                                    <input type="radio" name="sexo" value="hombre"> Hombre <br>
+                                    <input type="radio" name="sexo" value="mujer"> Mujer <br>
+                                    <input type="radio" name="sexo" value="otro"> Otro <br>
+                                    <input type="radio" name="sexo" value="prefieronodecirlo"> Prefiero no decirlo <br>
+
+                                </fieldset>
+
+
+                                <p><input type="submit" value="Aceptar"><input type="reset" value="Limpiar"></p>
+                            </form>
+
+                        </fieldset>
+                    </div>
                 </div>
             </div>
             <div class="cb"></div>
